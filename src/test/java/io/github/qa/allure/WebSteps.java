@@ -32,9 +32,9 @@ public class WebSteps {
         $(partialLinkText("Issues")).click();
     }
 
-    @Step("Проверяем название Issue {name}")
-    public void shouldHaveName(String name) {
-        $("#issue_65_link").shouldHave(text(name));
+    @Step("Проверяем название Issue {issue_name}")
+    public void shouldHaveName(String issue_name) {
+        $("#issue_65_link").shouldHave(text(issue_name));
     }
 
 }
