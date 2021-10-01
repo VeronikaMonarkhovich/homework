@@ -1,8 +1,10 @@
 .gradle/
-.idea/
+.idea
 .allure
 gradle/
 build/
 gradlew
 gradlew.bat
+/shelf/
+/workspace.xml
 
